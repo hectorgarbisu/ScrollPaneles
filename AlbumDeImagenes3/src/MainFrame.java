@@ -200,12 +200,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel3MouseClicked
 
     private void jPanel3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseEntered
-        int capa = jLayeredPane3.getPosition(jPanel3);
-        colorOriginal1 = jPanel3.getBackground();
-        jPanel3.setBackground(Color.red);
-        jTextField1.setText(String.valueOf(capa));
-        jLayeredPane3.setPosition(jPanel3,capa);
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_jPanel3MouseEntered
 
     private void jPanel3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseExited

@@ -70,7 +70,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
         currentImageIndex = (currentImageIndex+1)%images.length;
-        jLabel1.setIcon(new javax.swing.ImageIcon("src/"+images[currentImageIndex]));
+        jLabel1.setIcon(new javax.swing.ImageIcon("../"+images[currentImageIndex]));
     }//GEN-LAST:event_jLabel1MouseClicked
 
     /**
