@@ -52,7 +52,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jLabel2.setText("Héctor Garbisu DIU 2015");
 
-        jLayeredPane3.setBorder(javax.swing.BorderFactory.createTitledBorder("LayeredPane"));
+        jLayeredPane3.setBorder(javax.swing.BorderFactory.createTitledBorder("LayeredPanel"));
         jLayeredPane3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -166,13 +166,13 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLayeredPane3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel1)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel2)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 636, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -185,8 +185,8 @@ public class MainFrame extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel1)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jLayeredPane3))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(jLayeredPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 431, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
                 .addContainerGap())
         );
@@ -209,10 +209,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel3MouseEntered
 
     private void jPanel3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseExited
-        int capa = jLayeredPane3.getPosition(jPanel3);
-        jPanel3.setBackground(colorOriginal1);
-        jTextField1.setText("");
-        jLayeredPane3.setPosition(jPanel3,capa);
+
     }//GEN-LAST:event_jPanel3MouseExited
 
     private void jPanel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseClicked
@@ -220,18 +217,11 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel1MouseClicked
 
     private void jPanel1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseEntered
-        int capa = jLayeredPane3.getPosition(jPanel1);
-        colorOriginal2 = jPanel1.getBackground();
-        jPanel1.setBackground(Color.red);
-        jTextField1.setText(String.valueOf(capa));
-        jLayeredPane3.setPosition(jPanel1,capa);
+
     }//GEN-LAST:event_jPanel1MouseEntered
 
     private void jPanel1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseExited
-        int capa = jLayeredPane3.getPosition(jPanel1);
-        jPanel1.setBackground(colorOriginal3);
-        jTextField1.setText("");
-        jLayeredPane3.setPosition(jPanel1,capa);
+
     }//GEN-LAST:event_jPanel1MouseExited
 
     private void jPanel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseClicked
@@ -239,23 +229,15 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel2MouseClicked
 
     private void jPanel2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseEntered
-        int capa = jLayeredPane3.getPosition(jPanel2);
-        colorOriginal3 = jPanel2.getBackground();
-        jPanel2.setBackground(Color.red);
-        jTextField1.setText(String.valueOf(capa));
-        jLayeredPane3.setPosition(jPanel2,capa);
+
     }//GEN-LAST:event_jPanel2MouseEntered
 
     private void jPanel2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseExited
-        int capa = jLayeredPane3.getPosition(jPanel2);
-        jPanel2.setBackground(colorOriginal3);
-        jTextField1.setText("");
-        jLayeredPane3.setPosition(jPanel2,capa);
+
     }//GEN-LAST:event_jPanel2MouseExited
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
-                jLayeredPane3.moveToFront(jPanel3);
-
+        jLayeredPane3.moveToFront(jPanel3);
     }//GEN-LAST:event_jLabel3MouseClicked
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
