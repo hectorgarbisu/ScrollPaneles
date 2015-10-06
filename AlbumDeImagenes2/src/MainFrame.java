@@ -13,7 +13,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    int currentImageIndex = 0;
+    int currentImageIndex = 1;
     String[] images = {"Avatar.jpg","Eurofighter.jpg","Harrier.jpg","MapaGC.jpg","Painting.jpg","Scotland.jpg"};
     public MainFrame() {
         initComponents();
@@ -35,7 +35,7 @@ public class MainFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Héctor Garbisu DIU 2015");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\usuario\\Documents\\NetBeansProjects\\ScrollPaneles\\AlbumDeImagenes2\\src\\Avatar.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Eurofighter.jpg")); // NOI18N
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel1MouseClicked(evt);
@@ -84,7 +84,7 @@ public class MainFrame extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("Windows".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
