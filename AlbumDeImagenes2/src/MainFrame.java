@@ -14,7 +14,9 @@ public class MainFrame extends javax.swing.JFrame {
      * Creates new form MainFrame
      */
     int currentImageIndex = 1;
-    String[] images = {"Avatar.jpg","Eurofighter.jpg","Harrier.jpg","MapaGC.jpg","Painting.jpg","Scotland.jpg"};
+    String[] images = {"Avatar.jpg","Eurofighter.jpg","Harrier.jpg",
+                       "MapaGC.jpg","Painting.jpg","Scotland.jpg"};
+    
     public MainFrame() {
         initComponents();
     }

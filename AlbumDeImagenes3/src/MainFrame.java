@@ -99,7 +99,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Scotland.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Harrier.jpg")); // NOI18N
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel4MouseClicked(evt);
@@ -135,7 +135,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Scotland.jpg")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Eurofighter.jpg")); // NOI18N
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel5MouseClicked(evt);
@@ -169,7 +169,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Scotland.jpg")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\MapaGC.jpg")); // NOI18N
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel6MouseClicked(evt);
@@ -205,7 +205,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Scotland.jpg")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("G:\\Documentos\\NetBeansProjects\\ScrollPaneles\\Avatar.jpg")); // NOI18N
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel7MouseClicked(evt);
